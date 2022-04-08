@@ -1,0 +1,1974 @@
+PS C:\Users\ravi.mishra\tests> New-AzUpgradeModulePlan -FromAzureRmVersion '6.13.1' -ToAzVersion '6.1.0' -DirectoryPath C:\Users\ravi.mishra\tests -OutVariable Plan
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+You cannot call a method on a null-valued expression.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:163 char:29
++                             $cmdletRef.Parameters.Add($paramRef)
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+You cannot call a method on a null-valued expression.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:163 char:29
++                             $cmdletRef.Parameters.Add($paramRef)
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+You cannot call a method on a null-valued expression.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:163 char:29
++                             $cmdletRef.Parameters.Add($paramRef)
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+You cannot call a method on a null-valued expression.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:163 char:29
++                             $cmdletRef.Parameters.Add($paramRef)
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+You cannot call a method on a null-valued expression.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:163 char:29
++                             $cmdletRef.Parameters.Add($paramRef)
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+You cannot call a method on a null-valued expression.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:163 char:29
++                             $cmdletRef.Parameters.Add($paramRef)
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+You cannot call a method on a null-valued expression.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:163 char:29
++                             $cmdletRef.Parameters.Add($paramRef)
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+You cannot call a method on a null-valued expression.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:163 char:29
++                             $cmdletRef.Parameters.Add($paramRef)
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+You cannot call a method on a null-valued expression.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:163 char:29
++                             $cmdletRef.Parameters.Add($paramRef)
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+You cannot call a method on a null-valued expression.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:163 char:29
++                             $cmdletRef.Parameters.Add($paramRef)
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+You cannot call a method on a null-valued expression.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:163 char:29
++                             $cmdletRef.Parameters.Add($paramRef)
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+You cannot call a method on a null-valued expression.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:163 char:29
++                             $cmdletRef.Parameters.Add($paramRef)
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+You cannot call a method on a null-valued expression.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:163 char:29
++                             $cmdletRef.Parameters.Add($paramRef)
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+You cannot call a method on a null-valued expression.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:163 char:29
++                             $cmdletRef.Parameters.Add($paramRef)
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+You cannot call a method on a null-valued expression.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:163 char:29
++                             $cmdletRef.Parameters.Add($paramRef)
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+You cannot call a method on a null-valued expression.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:163 char:29
++                             $cmdletRef.Parameters.Add($paramRef)
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+You cannot call a method on a null-valued expression.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:163 char:29
++                             $cmdletRef.Parameters.Add($paramRef)
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+You cannot call a method on a null-valued expression.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:163 char:29
++                             $cmdletRef.Parameters.Add($paramRef)
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+New-Object : Exception calling ".ctor" with "0" argument(s): "Cannot find type [System.Collections.Generic.List[CommandReferenceParameter]]: verify that the assembly containing this type is loaded."
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:125 char:30
++                 $cmdletRef = New-Object -TypeName CommandReference
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+The property 'FullPath' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:126 char:17
++ ...             $cmdletRef.FullPath = $currentAstNode.CommandElements[0]. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'FileName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:127 char:17
++ ...             $cmdletRef.FileName = Split-Path -Path $currentAstNode.Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:128 char:17
++ ...             $cmdletRef.StartLine = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartColumn' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:129 char:17
++ ...             $cmdletRef.StartColumn = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndLine' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:130 char:17
++ ...             $cmdletRef.EndLine = $currentAstNode.CommandElements[0].E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndPosition' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:131 char:17
++ ...             $cmdletRef.EndPosition = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'CommandName' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:132 char:17
++ ...             $cmdletRef.CommandName = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'StartOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:133 char:17
++ ...             $cmdletRef.StartOffset = $currentAstNode.CommandElements[ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'EndOffset' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:134 char:17
++ ...             $cmdletRef.EndOffset = $currentAstNode.CommandElements[0] ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'Location' cannot be found on this object. Verify that the property exists and can be set.
+At C:\Program Files\WindowsPowerShell\Modules\Az.Tools.Migration\1.1.2\Functions\Private\Find-CmdletsInFile.ps1:135 char:17
++ ...             $cmdletRef.Location = "{0}:{1}:{2}" -f $cmdletRef.FileNam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
